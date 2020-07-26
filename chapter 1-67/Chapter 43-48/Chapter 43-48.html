@@ -7,7 +7,11 @@
     <title>JS Assignment chap 43-48</title>
 </head>
 <body>
+    <!--     Task-1  -->
     <a style="font-size: 30px;" href="#" onclick="alertBox();">Click Here to Alert a Message</a>
+    
+    
+    <!------ Task-2 -->
     <h1>Mobile Phone Lookup</h1>
     <div class="mobile">
         
@@ -36,30 +40,34 @@
     <br>
     <br>
     <br>
+
+    <!----------Task-3 -->
     <h1>Students Record</h1>
    <div class="stdList">
        <ol>
-           <li id="li1"><p>Markie</p><button onclick="document.getElementById('li1').style.display='none'">Delete</button></li>
-           <li id="li2"><p>John</p><button onclick="document.getElementById('li2').style.display='none'">Delete</button></li>
-           <li id="li3"><p>Aris</p><button onclick="document.getElementById('li3').style.display='none'">Delete</button></li>
-           <li id="li4"><p>Herry</p><button onclick="document.getElementById('li4').style.display='none'">Delete</button></li>
-           <li id="li5"><p>Simon</p><button onclick="document.getElementById('li5').style.display='none'">Delete</button></li>
-           <li id="li6"><p>Dan</p><button onclick="document.getElementById('li6').style.display='none'">Delete</button></li>
-           <li id="li7"><p>Sarah</p><button onclick="document.getElementById('li7').style.display='none'">Delete</button></li>
-           <li id="li8"><p>Ellie</p><button onclick="document.getElementById('li8').style.display='none'">Delete</button></li>
-           <li id="li9"><p>Alizer</p><button onclick="document.getElementById('li9').style.display='none'">Delete</button></li>
-           <li id="li10"><p>Smith</p><button onclick="document.getElementById('li10').style.display='none'">Delete</button></li>
+           <li id="li1"><p>Markie</p><button onclick="document.getElementById('li1').innerText='';">Delete</button></li>
+           <li id="li2"><p>John</p><button onclick="document.getElementById('li2').innerText='';">Delete</button></li>
+           <li id="li3"><p>Aris</p><button onclick="document.getElementById('li3').innerText='';">Delete</button></li>
+           <li id="li4"><p>Herry</p><button onclick="document.getElementById('li4').innerText='';">Delete</button></li>
+           <li id="li5"><p>Simon</p><button onclick="document.getElementById('li5').innerText='';">Delete</button></li>
+           <li id="li6"><p>Dan</p><button onclick="document.getElementById('li6').innerText='';">Delete</button></li>
+           <li id="li7"><p>Sarah</p><button onclick="document.getElementById('li7').innerText='';">Delete</button></li>
+           <li id="li8"><p>Ellie</p><button onclick="document.getElementById('li8').innerText='';">Delete</button></li>
+           <li id="li9"><p>Alizer</p><button onclick="document.getElementById('li9').innerText='';">Delete</button></li>
+           <li id="li10"><p>Smith</p><button onclick="document.getElementById('li10').innerText='';">Delete</button></li>
     </ol>
    </div>
+
+
+   <!---------Task-4 -->
    <div class="image">
     <img src="111.jpg" onmouseover="src='222.jpg'" onmouseout="src='111.jpg'" alt="">
    </div>
+   <!--  -------Task-5 -->
+   <section>
+    <button onclick="incre();">increase</button><h1 id="count">0</h1><button onclick="decre();">decrease</button>
+   </section>
 
-<div class="counter" >
-    <button onclick="incre();">Increase</button>
-    <p id="count">0</p>
-    <button onclick="decrease();">Decrease</button>
-</div>
    <script src="app.js"></script>    
 </body>
 </html>

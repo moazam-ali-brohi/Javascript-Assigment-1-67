@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS assignment 49-52</title>
+</head>
+<body>
+   
+    <form id="form1" class="formd">
+        <div class="container">
+            <h2>Registration Farm</h2>
+        <label for="name">First Name:</label><input type="text" name="" id="fname"><br>
+        <label for="name">Last Name:</label><input type="text" name="" id="lname"><br>
+        <label for="Email">Email:</label><input type="text" name="" id="email"><br>
+        <label for="Phone">Phone no.</label><input type="text" name="" id="phone"><br>
+        <label for="City">City:</label><input type="text" name="" id="city"><br>
+        <button type="submit" onclick="getEntry();"  class="formBtn">Submit</button>
+        </div>
+        </form>
+        <form id="form2"  class="hideElement formd" action="#" >
+            <div class="container">
+                <h2>Registered Entry</h2>
+            <label for="name">First Name:</label><p id="pfname"></p><br>
+            <label for="name">Last Name:</label><p id="plname"></p><br>
+            <label for="Email">Email:</label><p id="pemail"></p><br>
+            <label for="Phone">Phone no.</label><p id="pphone"></p><br>
+            <label for="city">City:</label><p id="pcity"></p><br>
+            </div>
+            
+        </form>
+
+
+        <section>
+            <form action="">
+                <div class="container">
+                    <h1>Register Student Details</h1>
+                <label for="name">First Name:</label><input type="text" name="" id="fname"><br>
+                <label for="name">Middle Name:</label><input type="text" name="" id="mname"><br>
+                <label for="name">Last Name:</label><input type="text" name="" id="lname"><br>
+                <label for="Email">Email:</label><input type="text" name="" id="email"><br>
+                <label for="Phone">Phone no.</label><input type="text" name="" id="phone"><br>
+                <label for="City">City:</label><input type="text" name="" id="city"><br>
+                <label for="City">Test Score:</label><input type="text" name="" id="score"><br>
+                <label for="City">Intermediate Marks:</label><input type="text" name="" id="mark"><br>
+                
+                <button type="submit" onclick="getEntry();" class="formBtn">Submit</button>
+                </div> 
+            </form>
+            <form action="">
+                <h2>Student Entry Data</h2>
+                <ol>
+                    <li>
+                        <table>
+                            <tr><td><div id="hidebtn"><button>Edit</button><button>Delete</button></div> </td></tr>
+                            <tr><td>2 <div id="hidebtn"><button>Edit</button><button>Delete</button></div></td></tr>
+                            <tr><td>3 <div id="hidebtn"><button>Edit</button><button>Delete</button></div></td></tr>
+                            <tr><td>4 <div id="hidebtn"><button>Edit</button><button>Delete</button></div></td></tr>
+                            <tr><td>5 <div id="hidebtn"><button>Edit</button><button>Delete</button></div></td></tr>
+                            <tr><td>6 <div id="hidebtn"><button>Edit</button><button>Delete</button></div></td></tr>
+                            <tr><td>7 <div id="hidebtn"><button>Edit</button><button>Delete</button></div></td></tr>
+                            <tr><td>8 <div id="hidebtn"><button>Edit</button><button>Delete</button></div> </td></tr>
+                            
+                        </table>
+                    </li>
+                </ol>
+            </form>
+        </section>
+        <script src="app.js"></script>
+</body>
+</html>

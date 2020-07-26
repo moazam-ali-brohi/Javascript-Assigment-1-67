@@ -26,10 +26,18 @@ function phone4(){
 //-------
 
 //Task-3
-//var para = document.getElementById('count').innerText=1;
+
+
+//Task-4
+
+
+//Task-5
+var click=0;
 function incre(){
-    var add=2;
-    var para = document.getElementById('count').innerText=add;
-    add=add++;
-   
+    click +=1;
+    document.getElementById("count").innerHTML=click;
+}
+function decre(){
+    click -=1;
+    document.getElementById("count").innerHTML=click;
 }

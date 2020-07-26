@@ -17,10 +17,17 @@ if(code>=48 && code<=57){
 
 
 //Task-2
-var x1=+prompt("enter");
-var x2=+prompt("enter");
-var maxi=Math.max(x1,x2);
-document.write(maxi +" is Greater");
+var x1=+prompt("enter first number");
+var x2=+prompt("enter second number");
+
+if(x1<x2){
+    document.write(x2+" is greator")
+}else if(x2<x1){
+    document.write(x1+" is greator")
+}else{
+    document.write("Both are same")
+}
+
 
 //------
 
