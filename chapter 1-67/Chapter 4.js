@@ -2,6 +2,8 @@
 
 //-------task 1
 var names = ["moazam", "ali", "brohi"]
+
+
 //-------task 2
 //illegal variable
 var my name = "moazam ali"

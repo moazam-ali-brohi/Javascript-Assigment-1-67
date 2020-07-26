@@ -15,5 +15,3 @@ alert("Happy Coding!")
 //--------task 5
 console.log(alert("Hello.. I can run JS through my browser's window"))
 
-//-------task 6
-alert("already using alert in html & css")

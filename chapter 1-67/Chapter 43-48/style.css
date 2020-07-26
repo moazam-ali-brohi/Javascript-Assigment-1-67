@@ -1,0 +1,51 @@
+*{
+    font-family: Arial, Helvetica;
+}
+.mobile{
+    display: flex;
+    justify-content: space-around;
+}
+.mobile div{
+    width: 200px;
+    border: 3px solid rgb(78, 78, 78);
+    text-align: center;
+}
+img{
+    width: 100%;
+}
+h1{
+    margin-left: 50px;
+}
+p{display: inline-block;}
+
+.stdList{
+    display: block;
+    margin-left: 50px;
+}
+.stdList p{
+    width: 400px;
+    height: 25px;
+    border: 2px solid rgb(141, 141, 141);
+    border-radius: 5px;
+    font-weight: bold;
+    padding-left: 20px;
+    
+}
+.stdList button{
+    width: 80px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.counter{
+    height: 100px;
+    font-style: italic;
+}
+.counter button{
+    width: 80px;
+    height: 30px;
+}

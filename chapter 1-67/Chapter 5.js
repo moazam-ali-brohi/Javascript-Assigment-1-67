@@ -23,6 +23,22 @@ document.write("Modulus of " + a + " by " + b + " equals to " + c)
 document.write("<br>")
 document.write("<br>")
 
+//----------
+
+//Task-3
+var x;
+document.write("value after decleration: "+x);
+var x=2;
+document.write("Initial value: "+x);
+x++
+document.write("value after increment: "+x);
+var x=x+7;
+document.write("value after addition : "+x);
+x--
+document.write("value after decrement: "+x);
+var x=x%3;
+document.write("The reminder output: "+x);
+
 
 //task 4
 var ticket = 600;
@@ -32,19 +48,11 @@ document.write("The cost to by 5 tickets is " + ticket * quantity)
 
 
 //task 5
-var number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-document.write("<h1>Table of 4</h1> <br>")
-document.write("  4 x 1 = 4  <br>")
-document.write("  4 x 2 = 8  <br>")
-document.write("  4 x 3 = 12 <br>")
-document.write("  4 x 4 = 16 <br>")
-document.write("  4 x 5 = 20 <br>")
-document.write("  4 x 6 = 24 <br>")
-document.write("  4 x 7 = 28 <br>")
-document.write("  4 x 8 = 32 <br>")
-document.write("  4 x 9 = 36 <br>")
-document.write("  4 x 10 = 40 <br>")
 
+document.write("<h1>Multiplication of: 4</h1><br>");
+for(var i=1; i<=10; i++){
+    document.write("4 X "+i+" = "+4*i )
+}
 
 //task 6
 var c = 30;
@@ -118,3 +126,18 @@ document.write("<h1>The Geometrizer</h1> <br>")
 document.write("Radius of circle: 20 <br>")
 document.write("circumference of circle: 125.67999999 <br>")
 document.write("The are of circle: " + circleArea)
+
+//-----------
+
+//Task-13
+var snack= "lays"
+var age=18;
+var maxAge=70;
+var snackPerDay=3;
+var cal=((maxAge-age)*365)*3;
+document.write("Favorite snack: Lays  <br>")
+document.write("Current age: 18 <br>")
+document.write("Estimated Maximum age : 70 <br>");
+document.write("Amount of snacks per day:  <br>");
+document.write("you will need "+cal+ " lays snacks to last you until death")
+//-------------------

@@ -1,30 +1,30 @@
                 //---------Chapter 9-11-------
 
-//-------task 1
+//task 1
 var city = prompt("Enter a city name")
 if (city == "karachi") { var city = " city of lights"; }
 alert("Welcome to " + city)
 
 
-//-------task 2
+//task 2
 var gender = prompt("What's your gender")
 if (gender == "male") { alert("Good Morning Sir."); } else { alert("Good Morning Ma'am"); }
 
 
-//-------task 3
+//task 3
 var color = prompt("Enter traffic light color")
 if (color == "red") { alert("Red color means you must stop"); } else
     if (color == "green") { alert("Green color means Move now"); } else
         if (color == "yellow") { alert("Yellow color means Ready to move"); }
 
 
-//------task 4
+//task 4
 var fuel = +prompt("Enter your remaining fuel")
 if (fuel < 0.25) { alert("Please refill the fuel in your car") } else
     if (fuel > 0.25) { alert("You have enough fuel"); }
 
 
-//------task 5
+//task 5
 var a = 4;
 if (++a === 5) { alert("given condition for variable a is true"); }
 
@@ -46,7 +46,7 @@ if (false) { alert("False"); }
 if ("car" < "cat") { alert("car is smaller than cat"); }
 
 
-//--------task 6
+//task 6
 var omarks = +prompt("Enter your obtained marks")
 var tmarks = +prompt("Enter the totals marks")
 var per = omarks / tmarks * 100;
@@ -72,15 +72,38 @@ document.write("Grade:" + grade + "<br>")
 document.write("Remarks:" + remark)
 
 
-//------task 7
+//task 7
 var x = +prompt("Guess a number from 1-10")
 var n = 7;
 if (x == 7) { alert("Correct Guess"); } else
     if (x == 6) { alert("close but not correct"); } else
         if (x == 8) { alert("close but not correct"); }
 
+//------------
 
-//------task 10
+
+//Task-8
+var num=+prompt("enter number to check if it is divisible by  3");
+var cal=num%3;
+if(cal==0){
+    document.write(num+" is divisible by 3");
+}else{
+    document.write(num+" is not  by 3");
+}
+//---------
+
+//Task-9
+var num=+prompt("enter number to chech it is even or odd")
+var cal=num%2;
+if(cal==0){
+    document.write( num+" is an Even number");
+}else{
+    document.write( num+" is an Odd number");}
+
+
+//-------------
+
+//task 10
 var temp = +prompt("Enter temperature");
 if (temp > 80) { alert("Its boiling hot"); } else
     if (temp > 60) { alert("its die hot out"); } else

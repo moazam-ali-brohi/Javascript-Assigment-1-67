@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JS Assignment chap 43-48</title>
+</head>
+<body>
+    <a style="font-size: 30px;" href="#" onclick="alertBox();">Click Here to Alert a Message</a>
+    <h1>Mobile Phone Lookup</h1>
+    <div class="mobile">
+        
+        <div onclick="phone1();">
+        <img src="phone-1.jpg" alt="image">
+        <p id="p1">Samsung galaxy S10</p>
+        </div>
+        <div onclick="phone2();">
+            <img src="phone-2.jpg" alt="">
+            <p id="p2">Samsung galaxy A60</p>
+        </div>
+        <div onclick="phone3();">
+            <img src="phone-3.webp" alt="">
+            <p id="p3">Samsung Galaxy S20 </p>
+        </div>
+        <div onclick="phone4();">
+            <img src="phone-4.webp" alt="">
+            <p id="p4">Samsung Galaxy S8 Plus</p>
+        </div>
+        <div onclick="phone5();">
+            <img src="phone-5.jpg" alt="">
+            <p id="p5">Samsung Galaxy Note 10 Plus</p>
+        </div>
+        
+    </div>
+    <br>
+    <br>
+    <br>
+    <h1>Students Record</h1>
+   <div class="stdList">
+       <ol>
+           <li id="li1"><p>Markie</p><button onclick="document.getElementById('li1').style.display='none'">Delete</button></li>
+           <li id="li2"><p>John</p><button onclick="document.getElementById('li2').style.display='none'">Delete</button></li>
+           <li id="li3"><p>Aris</p><button onclick="document.getElementById('li3').style.display='none'">Delete</button></li>
+           <li id="li4"><p>Herry</p><button onclick="document.getElementById('li4').style.display='none'">Delete</button></li>
+           <li id="li5"><p>Simon</p><button onclick="document.getElementById('li5').style.display='none'">Delete</button></li>
+           <li id="li6"><p>Dan</p><button onclick="document.getElementById('li6').style.display='none'">Delete</button></li>
+           <li id="li7"><p>Sarah</p><button onclick="document.getElementById('li7').style.display='none'">Delete</button></li>
+           <li id="li8"><p>Ellie</p><button onclick="document.getElementById('li8').style.display='none'">Delete</button></li>
+           <li id="li9"><p>Alizer</p><button onclick="document.getElementById('li9').style.display='none'">Delete</button></li>
+           <li id="li10"><p>Smith</p><button onclick="document.getElementById('li10').style.display='none'">Delete</button></li>
+    </ol>
+   </div>
+   <div class="image">
+    <img src="111.jpg" onmouseover="src='222.jpg'" onmouseout="src='111.jpg'" alt="">
+   </div>
+
+<div class="counter" >
+    <button onclick="incre();">Increase</button>
+    <p id="count">0</p>
+    <button onclick="decrease();">Decrease</button>
+</div>
+   <script src="app.js"></script>    
+</body>
+</html>
