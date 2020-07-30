@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS assignment 52-57</title>
+</head>
+<body>
+   <div id="modal-content" class="my-modal-content">
+       <img onclick="openModal(this);" id="imag1" src="8.jpg" alt="">
+       <img onclick="openModal(this);" id="imag" src="4.png" alt="">
+       <img onclick="openModal(this);" id="imag" src="5.jpg" alt="">
+       <img onclick="openModal(this);" id="imag" src="6.jpg" alt="">
+       <img onclick="openModal(this);" id="imag" src="7.png" alt="">
+    
+   </div>
+   <div class="myOpenedModal" id="openedModal">
+       <div>
+           <img  id="modalImage" alt="">
+           <p onclick="closeModal();">x</p>
+       </div>
+   </div>
+   <div class="zoom">
+    <button onclick="zoomIn();">Zoom in</button><button onclick="zoomOut();"  >Zoom out</button><div class="zoomDisplay"><p id="zoomValue">0</p></div>
+       <p id="lorem">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum, debitis.</p>
+   </div>
+
+     <script src="Chapter-53-57.js"></script>
+         
+</body>
+</html>

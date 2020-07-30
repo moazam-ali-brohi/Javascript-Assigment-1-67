@@ -1,4 +1,4 @@
-//----------chapter 6-9------
+//----------chapter 6-8------
 
 //task 1
 var a = 10;
@@ -36,18 +36,15 @@ window.alert("Welcome! " + name)
 
 //task 5
 var n = +prompt("Enter any number to show its Multiplication Table")
-if (n == 0) { var n = 5; }
-document.write("<h1>Table of " + n + "</h1> <br>")
-document.write(n + " x 1  = " + n * 1 + "<br>")
-document.write(n + " x 2  = " + n * 2 + "<br>")
-document.write(n + " x 3  = " + n * 3 + "<br>")
-document.write(n + " x 4  = " + n * 4 + "<br>")
-document.write(n + " x 5  = " + n * 5 + "<br>")
-document.write(n + " x 6  = " + n * 6 + "<br>")
-document.write(n + " x 7  = " + n * 7 + "<br>")
-document.write(n + " x 8  = " + n * 8 + "<br>")
-document.write(n + " x 9  = " + n * 9 + "<br>")
-document.write(n + " x 10 = " + n * 10 + "<br>")
+
+if (n==0){ 
+    n=5; }
+document.write("<h1>Multiplication of: "+n+"</h1>");
+for(var i=1; i<=10; i++){
+document.write(n+" x "+i+" = "+n*i +"<br>")
+}
+
+
 
 //task 6
 var sub1 = prompt("Enter your first subject ")

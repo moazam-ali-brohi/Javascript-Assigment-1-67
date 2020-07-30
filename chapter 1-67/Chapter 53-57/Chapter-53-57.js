@@ -1,10 +1,12 @@
-
-
-function openModal(){
-    document.getElementById("modal").style.display="block";
+//Task-1
+function openModal(a){
+    var x = a.getAttribute("src");
+    document.getElementById("openedModal").style.display="block";
+    document.getElementById("modalImage").setAttribute("src", x);
 }
+
 function closeModal(){
-    document.getElementById("modal").style.display="none";
+    document.getElementById("openedModal").style.display="none";
 }
 
 
@@ -29,4 +31,4 @@ function zoomOut(){
     var pix="px";
     var zoomOutV= zoomStrr+pix;
     document.getElementById("lorem").style.fontSize=zoomOutV;
-}
+} 
